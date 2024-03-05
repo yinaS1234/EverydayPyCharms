@@ -7,5 +7,6 @@ Welcome to EverydayPyCharms! This repository is a collection of my humble Python
 
 - **Project Summary**: Jumpstart your day with an uplifting quote! This Python script uses `smtplib` to automate daily motivational emails, `Selenium` for fetching inspirational images,ensuring you start your day on a positive note. 
 - Automates email sending with personalized motivational quotes and accompanying images. Uses web scraping to curate daily inspirational content,making each morning's message unique.
--  this script turns every morning's email check into a moment of inspiration and reflection, setting a positive tone for the day.
+- Fully automated if hosted in cloud, eg. like python everywhere or AWS.
+- This script turns every morning's email check into a moment of inspiration and reflection, setting a positive tone for the day.
 
