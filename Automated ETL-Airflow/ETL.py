@@ -6,7 +6,7 @@ import numpy as np
 import sqlalchemy as db
 
 def main():
-    url='https://github.com/yinaS1234/EverydayPyCharms/blob/main/P1-AmazingMartEU2.xlsx?raw=true'
+    url='https://github.com/yinaS1234/EverydayPyCharms/blob/main/Automated%20ETL-Airflow/P1-AmazingMartEU2.xlsx?raw=true'
     df=pd.read_excel(url,sheet_name='ListOfOrders')
     dedup=df[~df.duplicated(['Customer Name','Order Date','City','Order ID'])]
     dedup.replace('',np.nan, inplace=True)
