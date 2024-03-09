@@ -10,7 +10,7 @@ Welcome to EverydayPyCharms! This repository is a collection of my humble Python
   - ☁️ Fully automated if hosted in the cloud, e.g., PythonAnywhere or AWS.
 - **Impact**: This script turns every morning's email check into a moment of inspiration and reflection, setting a positive tone for the day.
 
-🛒 Walmart Retail Data Pipeline
+🌅 Walmart Retail Data Pipeline
 Project Summary: Mastering data pipelines is essential for Data Engineers today. It involves extracting, transforming, and loading data — a fundamental task that ensures information flows smoothly.Dive into the world of retail with this transformative ETL project, designed to streamline and enrich Walmart's extensive dataset. Leveraging Python's pandas and SQLAlchemy, this pipeline meticulously extracts data from diverse sources, transforms it with precision, and loads it seamlessly for in-depth analysis.
 
 Key Features:
