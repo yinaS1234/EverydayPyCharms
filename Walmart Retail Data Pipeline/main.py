@@ -48,7 +48,7 @@ agg_data = avg_monthly_sales(cleaned_df)
 
 # load into mysql
 def load(df):
-    db_connection_url = 'mysql+mysqlconnector://root:*12@localhost/ETLload'
+    db_connection_url = 'mysql+mysqlconnector://root:*1@localhost/ETLload'
     engine = db.create_engine(db_connection_url)
     df.to_sql('walmart_monthly_sales', engine, if_exists='replace', index=False)
     print("Data loaded into MySQL successfully!")
